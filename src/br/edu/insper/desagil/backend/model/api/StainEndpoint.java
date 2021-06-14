@@ -8,10 +8,9 @@
 package br.edu.insper.desagil.backend.model.api;
 
 import java.util.Arrays;
+
 import java.util.HashMap;
 import java.util.Map;
-
-import javax.sound.midi.Track;
 
 import br.edu.insper.desagil.backend.core.Endpoint;
 import br.edu.insper.desagil.backend.core.exception.APIException;
@@ -20,6 +19,7 @@ import br.edu.insper.desagil.backend.model.Artist;
 import br.edu.insper.desagil.backend.model.CollaborationTrack;
 import br.edu.insper.desagil.backend.model.Playlist;
 import br.edu.insper.desagil.backend.model.Stain;
+import br.edu.insper.desagil.backend.model.Track;
 
 public class StainEndpoint extends Endpoint<Stain> {
 	private Map<String, Stain> stains;
